@@ -1,0 +1,97 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+}
+
+
+header{
+    padding:1rem;
+    display:flex;
+    justify-content: flex-end;
+    background-color: white;
+}
+
+.heading {
+    display: flex;
+    position: relative;
+    font-family: 'Dancing Script', cursive;
+    letter-spacing: 2px;
+    font-size: 2.5rem;
+    left: -55%;
+    color: rgb(46, 45, 53);
+}
+
+.search{
+    background-color: transparent;
+    border: 2px solid rgb(167, 166, 166);
+    padding:0.5rem 1rem;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-family: inherit;
+    position: relative;
+    top: 30%;
+    right: 40%;
+}
+
+.search:focus{
+    outline:0;
+    background-color: transparent;
+}
+
+.search::placeholder{
+    color: rgb(167, 166, 166);
+}
+
+main{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.movie {
+    width: 300px;
+    margin: 1rem;
+    border-radius: 3px;
+    box-shadow: 0.2px 4px 5px rgba(0,0,0,0.1);
+    background-color: white;
+    position: relative;
+}
+
+.movie img{
+    width:100%;
+}
+
+.movie-info{
+    color:black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.5rem 1rem 1rem;
+    letter-spacing: 0.5px;
+}
+
+.movie-info h3{
+    margin-top: 3;
+}
+
+.movie-info span{
+    padding: 0.5rem 1rem;
+    font-weight: bold;
+    color: black;
+}
+
+.tgl-rilis{
+    position:relative;
+    left:0;
+    right:0;
+    bottom: 1px;;
+    background-color: #fff;
+    padding: 1rem;
+    max-height: 100%;
+}
+
